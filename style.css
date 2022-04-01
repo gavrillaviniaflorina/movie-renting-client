@@ -1,0 +1,103 @@
+body {
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+}
+
+.main-new {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+button {
+    background-color: green;
+    color: white;
+    width: 20%;
+    height: 80px;
+}
+
+table {
+    width: 1000px;
+    margin: auto;
+}
+
+thead th {
+    font-weight: bolder;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+    border-bottom: 2px solid orange;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: gray;
+}
+
+tbody th {
+    color: green;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+fieldset {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new {
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.cancel {
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.update {
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.delete {
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.errors {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.error {
+    width: 200px;
+    height: 100px;
+    float: left;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
